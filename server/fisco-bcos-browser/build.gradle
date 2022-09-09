@@ -1,6 +1,8 @@
 version '1.0'
 
-apply plugin: 'maven'
+// https://docs.gradle.org/7.0/userguide/upgrading_version_6.html?_ga=2.89654745.374070913.1630385037-1835317872.1629704027#removal_of_the_legacy_maven_plugin
+// apply plugin: 'maven'
+apply plugin: 'maven-publish'
 apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'eclipse'
