@@ -20,7 +20,7 @@ public class Constants {
     private String cronSyncChainContract = "0/10 * * * * ?";
     private int keepTxnCnt = 500000;
 
-    public static final String RPC_BASE_URI = "http://%s:%s";
+    public static final String RPC_BASE_URI = "https://%s:%s";
     public static final String GET_BLOCK_NUMBER = "getBlockNumber";
     public static final String GET_PBFT_VIEW = "getPbftView";
     public static final String GET_TOTAL_TRANSACTION_COUNT = "getTotalTransactionCount";
